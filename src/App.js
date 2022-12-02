@@ -1,5 +1,7 @@
+import MainCards from "./components/mainCards/mainCards";
+
 const App = () => {
-  return <div className="App">hello</div>;
+  return <MainCards />;
 };
 
 export default App;
