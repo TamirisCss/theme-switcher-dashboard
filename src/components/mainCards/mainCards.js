@@ -29,7 +29,9 @@ const MainCards = () => {
             </InfoTopContainer>
             <CardNumberFollowers>{card.followers}</CardNumberFollowers>
             <CardFollowers>{card.status}</CardFollowers>
-            <CardIsPositive>
+            <CardIsPositive
+              style={{ color: card.positive ? "#1db489" : "#dc414c" }}
+            >
               <img src={card.positive ? iconUp : iconDown} alt="icon" />
               {card.today}
               <span>Today</span>

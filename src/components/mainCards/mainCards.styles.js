@@ -18,9 +18,10 @@ export const MainCardsContainer = styled.div`
 `;
 
 export const CardContainer = styled.div`
+  background-color: ${(props) => props.theme.colors.bgCard};
   width: 220px;
   height: 190px;
-
+  color: ${(props) => props.theme.colors.text};
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -34,6 +35,7 @@ export const CardFollowers = styled.p`
   font-size: 0.8rem;
 `;
 export const CardNumberFollowers = styled.h3`
+  color: ${(props) => props.theme.colors.textTheme};
   font-size: 2rem;
   margin: 0.5rem 0;
 `;
