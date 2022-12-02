@@ -19,7 +19,7 @@ export const MainCardsContainer = styled.div`
 
 export const CardContainer = styled.div`
   background-color: ${(props) => props.theme.colors.bgCard};
-  width: 220px;
+  width: 240px;
   height: 190px;
   color: ${(props) => props.theme.colors.text};
   border-radius: 5px;

@@ -16,7 +16,6 @@ import data from "../../data.json";
 
 const MainCards = () => {
   const mainCards = data.mainCards;
-  console.log(mainCards);
 
   return (
     <>
