@@ -1,5 +1,8 @@
 import React from "react";
 
+import iconDown from "../../img/icon-down.svg";
+import iconUp from "../../img/icon-up.svg";
+
 import {
   MainCardsContainer,
   CardContainer,
@@ -27,6 +30,7 @@ const MainCards = () => {
             <CardNumberFollowers>{card.followers}</CardNumberFollowers>
             <CardFollowers>{card.status}</CardFollowers>
             <CardIsPositive>
+              <img src={card.positive ? iconUp : iconDown} alt="icon" />
               {card.today}
               <span>Today</span>
             </CardIsPositive>
