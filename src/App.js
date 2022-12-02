@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import MainCards from "./components/mainCards/mainCards";
 import Header from "./components/header/header";
+import MainCards from "./components/mainCards/mainCards";
+import SecondaryCards from "./components/secondaryCards/secondaryCards";
 import { BackgroundContainer } from "./components/background";
 
 import { ThemeProvider } from "styled-components";
@@ -21,6 +22,7 @@ const App = () => {
       <BackgroundContainer>
         <Header toggleTheme={toggleTheme} />
         <MainCards />
+        <SecondaryCards />
       </BackgroundContainer>
     </ThemeProvider>
   );
