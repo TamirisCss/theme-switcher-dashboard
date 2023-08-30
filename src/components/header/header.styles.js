@@ -1,18 +1,17 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
+  max-width: 1210px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: 0 6rem;
+
   padding-top: 2rem;
   @media (max-width: 685px) {
-    margin: 0 3rem;
+    padding: 1rem;
   }
   @media (max-width: 550px) {
     flex-direction: column;
-  }
-  @media (max-width: 398px) {
-    margin: 0 1rem;
   }
 `;
 

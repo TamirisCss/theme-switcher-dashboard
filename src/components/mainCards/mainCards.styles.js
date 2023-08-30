@@ -1,19 +1,15 @@
 import styled from "styled-components";
 
 export const MainCardsContainer = styled.div`
-  margin: 2rem 6rem;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 2rem 6rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
   @media (max-width: 685px) {
-    margin: 2rem 3rem;
-  }
-  @media (max-width: 550px) {
     justify-content: center;
-  }
-  @media (max-width: 398px) {
-    margin: 2rem 1rem;
   }
 `;
 

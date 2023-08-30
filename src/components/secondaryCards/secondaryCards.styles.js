@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const SecondaryCardsTitle = styled.h2`
-  margin: 2rem 0rem 1rem 6rem;
+  padding: 2rem 0rem 1rem 0rem;
   color: ${(props) => props.theme.colors.textTheme};
+  max-width: 1210px;
+  margin: 0 auto;
+
   @media (max-width: 685px) {
-    margin: 2rem 0rem 1rem 3rem;
+    text-align: center;
   }
   @media (max-width: 398px) {
     margin: 2rem 0rem 1rem 1rem;
@@ -12,20 +15,15 @@ export const SecondaryCardsTitle = styled.h2`
 `;
 
 export const SecondaryCardsContainer = styled.div`
-  margin: 0 6rem;
+  max-width: 1210px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
   padding-bottom: 1rem;
   @media (max-width: 685px) {
-    margin: 0 3rem;
-  }
-  @media (max-width: 550px) {
     justify-content: center;
-  }
-  @media (max-width: 398px) {
-    margin: 0 1rem;
   }
 `;
 
